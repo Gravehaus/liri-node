@@ -1,4 +1,5 @@
 require("dotenv").config();
+
 //variables//
 let axios = require("axios");
 let moment = require("moment");
@@ -6,7 +7,7 @@ let Spotify = require('node-spotify-api');
 let keys = require("./keys.js");
 let fs = require('fs');
 let spotify = new Spotify(keys.spotify);
-let input = process.argv[2;
+let input = process.argv[2];
 let searchType = process.argv.splice(3).join();
 
 //If else statements for uer input//
