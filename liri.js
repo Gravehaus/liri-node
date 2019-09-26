@@ -117,3 +117,32 @@ spotify.search({type: 'track', query:track }, function(err, response){
   }
 })
 
+//THIS ENDS THE SPOTIFY FUNCTION//
+
+//THIS STARTS THE 'DO WHAT IT SAYS' FUNCTION//
+
+function doWhatItSays(){
+  fs.readFile("random.txt", "utf8", function (err, response){
+    if (err) throw err
+
+    let responseArr = response.split(',');
+    console.log('');
+    console.log('---CONTENT---');
+    console.log('');
+
+    for (let i = 0; i < responseArr.length; i++){
+      if (responseArr[i] === 'movie-this'){
+        movieThis(searchType);
+      }else if (responseArr[i] === 'spotify-this-song'){
+        spotifyTrack(searchType);
+      }else if (responseArr[i] === 'concert-this'){
+        concertThis(searchType);
+      }else{
+        console.log("Input not valid");
+      }
+    }
+  })
+}
+
+//ENDS THE DO WHAT IT SAYS FUNCTION//
+
