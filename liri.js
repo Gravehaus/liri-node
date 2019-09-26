@@ -64,8 +64,10 @@ function movieThis(movie){
 
 }
 
+//THIS BAND SEARCH//
+
 function concertThis(concert) {
-  let concertQueury = concert || "'Sweet Dreams' by the Eurythmics" //IF THERE IS NO USER INPUT, IT AUTOMATICALLY SEARCHES FOR THIS LET STATEMENT
+  let concertQueury = concert || "'Sweet Dreams' by the Eurythmics" //IF THERE IS NO USER INPUT, IT AUTOMATICALLY SEARCHES FOR THIS LET STATEMENT//
 
   axios.get("--INSERT BANDS IN TOWN HERE") + concertQueury + "/events?app_id=codingbootcamp").then(function){
   let jsonData = response.data;
