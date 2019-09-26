@@ -65,7 +65,7 @@ function movieThis(movie){
 }
 
 function concertThis(concert) {
-  let concertQueury = concert || "'Sweet Dreams' by the Eurythmics"
+  let concertQueury = concert || "'Sweet Dreams' by the Eurythmics" //IF THERE IS NO USER INPUT, IT AUTOMATICALLY SEARCHES FOR THIS LET STATEMENT
 
   axios.get("--INSERT BANDS IN TOWN HERE") + concertQueury + "/events?app_id=codingbootcamp").then(function){
   let jsonData = response.data;
@@ -85,6 +85,35 @@ function concertThis(concert) {
     // console.log(concertThis);
   }
 
-}
+});
 
 }
+
+//SPOTIFY//
+
+function spotifyTrack(track);
+
+spotify.search({type: 'track', query:track }, function(err, response){
+  if (err){
+    return console.log('Error occurred: ' + err);
+  }
+  let jsonData = response.tracks;
+  console.log(jsonData);
+
+  for (let i = 0; i < 5; i++){
+    let divider = "\n--------------------------------------\n\n";
+    let trackInfo = [
+      "\nArtist: " + jsonData.items[i].artists[0].name,
+      "\nTrack Name: " + jsonData.items[i].name,
+      "\nAlbum Name: " + jsonData.items[i].album.name,
+      "\nPreview Track: " + jsonData.items[i].preview_url,
+      ]
+    console.log(divider + trackInfo);
+
+    fs.appendFile("log.txt", trackInfo + divider, function(err){
+      if (err) throw err;
+      console.log(divider + trackInfo);
+    });
+  }
+})
+
