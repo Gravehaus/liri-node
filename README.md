@@ -2,7 +2,7 @@
 
 The Liri-Node-App is a command that the user inputs to retrieve information on film and music. Utilizing Spotify and OMDB APIs to retrieve said information.
 
-TThe app is organized starting with OMDB, THIS BAND SEARCH then SPOTIFY.
+The app is organized starting with OMDB, THIS BAND SEARCH then SPOTIFY.
 
 To run the app, open terminal in VS code or Webstorm and type in: "node" '(space)' liri.js followed by the commands of 
 
