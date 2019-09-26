@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Gravehaus/liri-node/issues"
   },
-  "homepage": "https://github.com/Gravehaus/liri-node#readme"
+  "homepage": "https://github.com/Gravehaus/liri-node#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "node-spotify-api": "^1.1.1"
+  }
 }

@@ -1,13 +1,13 @@
 require("dotenv").config();
 //variables//
-var axios = require("axios");
-var moment = require("moment");
-var Spotify = require('node-spotify-api');
-var keys = require("./keys.js");
-var fs = require('fs');
-var spotify = new Spotify(keys.spotify);
-var input = process.argv[2;
-var searchType = process.argv.splice(3).join();
+let axios = require("axios");
+let moment = require("moment");
+let Spotify = require('node-spotify-api');
+let keys = require("./keys.js");
+let fs = require('fs');
+let spotify = new Spotify(keys.spotify);
+let input = process.argv[2;
+let searchType = process.argv.splice(3).join();
 
 //If else statements for uer input//
 
@@ -35,18 +35,18 @@ else{
 
 //START OMDB//
 function movieThis(movie){
-  var movieQuery = movie || "Tropic Thunder"
+  let movieQuery = movie || "Tropic Thunder"
 
   axios.get("" + movieQuery + "").then(function(){
-  var divider = "\n------------------------------------\n\n";
-  var jsonData = response.data;
+  let divider = "\n------------------------------------\n\n";
+  let jsonData = response.data;
 
   if (jsonData.title != undefined){
   }
   else {
   }
 
-  var movieData = [
+  let movieData = [
     "Title: " + jsonData.Title,
     "Year: " + jsonData.Year,
     "imdb Rating: " + jsonData.imdbRating,
@@ -61,5 +61,30 @@ function movieThis(movie){
     console.log(divider + movieData);
   });
 })
+
+}
+
+function concertThis(concert) {
+  let concertQueury = concert || "'Sweet Dreams' by the Eurythmics"
+
+  axios.get("--INSERT BANDS IN TOWN HERE") + concertQueury + "/events?app_id=codingbootcamp").then(function){
+  let jsonData = response.data;
+  for (let i = 0; i < jsonData.length; i++){
+    let divider = "\n---------------------------------\n\n";
+    let concertFind = [
+      "\nVenue Name: " + jsonData[i].venue.name,
+      "\nLocation: " + jsonData[i].venue.city,
+      "\nDate of Concert: " + moment(jsonData[i].dateTime).format("L"),
+    ].join("\n\n")
+
+    fs.appendFile("log.txt", concertFind + divider, function(err){
+      if(err) throw err;
+      console.log(divider + concertFind);
+    });
+    console.log(divider + concertFind);
+    // console.log(concertThis);
+  }
+
+}
 
 }
