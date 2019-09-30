@@ -5,10 +5,11 @@ let axios = require("axios");
 let moment = require("moment");
 let Spotify = require('node-spotify-api');
 let keys = require("./keys.js");
+//console.log(keys);
 let fs = require('fs');
 let spotify = new Spotify(keys.spotify);
 let input = process.argv[2];
-let searchType = process.argv.splice(3).join();
+let searchType = process.argv.splice(3).join(" ");
 
 //If else statements for user input//
 
@@ -18,7 +19,7 @@ if (input === 'movie-this'){
   movieThis(searchType);
 }
 //BANDS IN TOWN//
-else if (input=== 'concert-this'){
+else if (input === 'concert-this'){
   concertThis(searchType);
 }
 //SPOTIFY//
@@ -38,8 +39,9 @@ else{
 function movieThis(movie){
   let movieQuery = movie || "Tropic Thunder"
 
-  axios.get("" + movieQuery + "").then(function(){
+  axios.get("http://www.omdbapi.com/?t="+movie+"s&y=&plot=short&apikey=trilogy").then(function(response){
   let divider = "\n------------------------------------\n\n";
+
   let jsonData = response.data;
 
   if (jsonData.title != undefined){
@@ -61,7 +63,9 @@ function movieThis(movie){
     if(err) throw err;
     console.log(divider + movieData);
   });
-})
+}).catch(function(err){
+  console.log(err)
+  })
 
 }
 
@@ -69,13 +73,18 @@ function movieThis(movie){
 
 function concertThis(concert) {
   let concertQueury = concert || "'Sweet Dreams' by the Eurythmics" //IF THERE IS NO USER INPUT, IT AUTOMATICALLY SEARCHES FOR THIS LET STATEMENT//
+console.log("This is the "+concert)
+  //rest.bandsintown.com... IS THIS CORRECT?//
+ // axios.get("rest.bandsintown.com") + concertQueury + "/events?app_id=#").then(function){ //Wasn't sure what link I was putting in here...//
+  axios.get("https://rest.bandsintown.com/artists/" + concert + "/events?app_id=codingbootcamp").then(function(response){ //Wasn't sure what link I was putting in here...//
+  const jsonData = response.data;
+   // console.log(response)
 
-  axios.get("--INSERT BANDS IN TOWN HERE") + concertQueury + "/events?app_id=codingbootcamp").then(function){ //Wasn't sure what link I was putting in here...//
-  let jsonData = response.data;
-  for (let i = 0; i < jsonData.length; i++){
+  for (let i = 0; i < jsonData.length; i++) {
     let divider = "\n---------------------------------\n\n";
     let concertFind = [
       "\nVenue Name: " + jsonData[i].venue.name,
+
       "\nLocation: " + jsonData[i].venue.city,
       "\nDate of Concert: " + moment(jsonData[i].dateTime).format("L"),
     ].join("\n\n")
@@ -88,38 +97,41 @@ function concertThis(concert) {
     // console.log(concertThis);
   }
 
-});
+})
+    .catch(function(err){
+      console.log(err)
+    })
 
 }
 
 //SPOTIFY//
 
-function spotifyTrack(track);
+function spotifyTrack(track) {
 
-spotify.search({type: 'track', query:track }, function(err, response){
-  if (err){
-    return console.log('Error occurred: ' + err);
-  }
-  let jsonData = response.tracks;
-  console.log(jsonData);
+  spotify.search({ type: 'track', query: track }, function (err, response) {
+    if (err) {
+      return console.log('Error occurred: ' + err);
+    }
+    let jsonData = response.tracks;
+    console.log(jsonData);
 
-  for (let i = 0; i < 5; i++){
-    let divider = "\n--------------------------------------\n\n";
-    let trackInfo = [
-      "\nArtist: " + jsonData.items[i].artists[0].name,
-      "\nTrack Name: " + jsonData.items[i].name,
-      "\nAlbum Name: " + jsonData.items[i].album.name,
-      "\nPreview Track: " + jsonData.items[i].preview_url,
+    for (let i = 0; i < 5; i++) {
+      let divider = "\n--------------------------------------\n\n";
+      let trackInfo = [
+        "\nArtist: " + jsonData.items[i].artists[0].name,
+        "\nTrack Name: " + jsonData.items[i].name,
+        "\nAlbum Name: " + jsonData.items[i].album.name,
+        "\nPreview Track: " + jsonData.items[i].preview_url,
       ]
-    console.log(divider + trackInfo);
-
-    fs.appendFile("log.txt", trackInfo + divider, function(err){
-      if (err) throw err;
       console.log(divider + trackInfo);
-    });
-  }
-})
 
+      fs.appendFile("log.txt", trackInfo + divider, function (err) {
+        if (err) throw err;
+        console.log(divider + trackInfo);
+      });
+    }
+  })
+}
 //THIS ENDS THE SPOTIFY FUNCTION//
 
 //THIS STARTS THE 'DO WHAT IT SAYS' FUNCTION//
