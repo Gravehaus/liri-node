@@ -10,7 +10,7 @@ let spotify = new Spotify(keys.spotify);
 let input = process.argv[2];
 let searchType = process.argv.splice(3).join();
 
-//If else statements for uer input//
+//If else statements for user input//
 
 //OMDB//
 
@@ -50,7 +50,7 @@ function movieThis(movie){
   let movieData = [
     "Title: " + jsonData.Title,
     "Year: " + jsonData.Year,
-    "imdb Rating: " + jsonData.imdbRating,
+    "IMDB Rating: " + jsonData.imdbRating,
     "Country: " + jsonData.Country,
     "Language: " + jsonData.Language,
     "Plot: " + jsonData.Plot,
@@ -70,7 +70,7 @@ function movieThis(movie){
 function concertThis(concert) {
   let concertQueury = concert || "'Sweet Dreams' by the Eurythmics" //IF THERE IS NO USER INPUT, IT AUTOMATICALLY SEARCHES FOR THIS LET STATEMENT//
 
-  axios.get("--INSERT BANDS IN TOWN HERE") + concertQueury + "/events?app_id=codingbootcamp").then(function){
+  axios.get("--INSERT BANDS IN TOWN HERE") + concertQueury + "/events?app_id=codingbootcamp").then(function){ //Wasn't sure what link I was putting in here...//
   let jsonData = response.data;
   for (let i = 0; i < jsonData.length; i++){
     let divider = "\n---------------------------------\n\n";
