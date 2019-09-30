@@ -23,3 +23,6 @@ Technologies used in assignment:
 -Axios, OMDB, Spotify, Moment, DotEnv node packages
 
 Created by Julia Graves
+
+<img width="1428" alt="Screen Shot 2019-09-30 at 10 04 18 AM" src="https://user-images.githubusercontent.com/54043578/65900312-93f73100-e36a-11e9-88c9-2575ea56e9f2.png">
+<img width="1023" alt="Screen Shot 2019-09-30 at 10 04 22 AM" src="https://user-images.githubusercontent.com/54043578/65900313-948fc780-e36a-11e9-8012-d5092a7dcf87.png">
