@@ -39,7 +39,7 @@ ENTER IN TERMINAL:node liri.js spotify-this-song '[ENTER TOURING ARTIST OR SONG 
 
 ////////////////////////////////////////MOVIE-THIS COMMAND///////////////////////////////////////////////////////////////
 
-ENTER IN TERMINAL:node liri.js concert-this '[ENTER FILM HERE]'
+ENTER IN TERMINAL:node liri.js concert-this '[ENTER FILM HERE]' <br></br>
   -WILL RETURN MOVIE INFORMATION
 
 <img width="1212" alt="start-process" src="https://user-images.githubusercontent.com/54043578/65984122-e8b2ae80-e433-11e9-9ba7-48bf0e06415c.png">
