@@ -24,5 +24,9 @@ Technologies used in assignment:
 
 Created by Julia Graves
 
-<img width="1428" alt="Screen Shot 2019-09-30 at 10 04 18 AM" src="https://user-images.githubusercontent.com/54043578/65900312-93f73100-e36a-11e9-88c9-2575ea56e9f2.png">
-<img width="1023" alt="Screen Shot 2019-09-30 at 10 04 22 AM" src="https://user-images.githubusercontent.com/54043578/65900313-948fc780-e36a-11e9-8012-d5092a7dcf87.png">
+SCREENSHOTS OF COMMANDS
+<img width="1212" alt="start-process" src="https://user-images.githubusercontent.com/54043578/65983915-7215b100-e433-11e9-870e-89be195a5648.png">
+<img width="1440" alt="spotify-this" src="https://user-images.githubusercontent.com/54043578/65983941-835ebd80-e433-11e9-990b-61cb4004ea74.png">
+<img width="1433" alt="sweet-dreams" src="https://user-images.githubusercontent.com/54043578/65983959-8bb6f880-e433-11e9-9c43-2266abf836c0.png">
+<img width="1422" alt="sweet-dreams-response" src="https://user-images.githubusercontent.com/54043578/65983976-94a7ca00-e433-11e9-89f6-ec011a30e820.png">
+<img width="1434" alt="sweet-dreams-r2" src="https://user-images.githubusercontent.com/54043578/65983988-996c7e00-e433-11e9-8853-83d163d23e1a.png">
