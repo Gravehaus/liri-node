@@ -39,12 +39,13 @@ ENTER IN TERMINAL:node liri.js spotify-this-song '[ENTER TOURING ARTIST OR SONG 
 
 ////////////////////////////////////////MOVIE-THIS COMMAND///////////////////////////////////////////////////////////////
 
-ENTER IN TERMINAL:node liri.js concert-this '[ENTER FILM HERE]' <br />
+ENTER IN TERMINAL:node liri.js movie-this '[ENTER FILM HERE]' <br />
   -WILL RETURN MOVIE INFORMATION
 
-<img width="1212" alt="start-process" src="https://user-images.githubusercontent.com/54043578/65984122-e8b2ae80-e433-11e9-9ba7-48bf0e06415c.png">
-<img width="1426" alt="movie-this" src="https://user-images.githubusercontent.com/54043578/65984132-f0725300-e433-11e9-8af9-03dc6b7e6e83.png">
-<img width="1082" alt="movie-response" src="https://user-images.githubusercontent.com/54043578/65984144-f36d4380-e433-11e9-9b2b-5b1b095f874b.png">
+<img width="1436" alt="tropic-thunder-command" src="https://user-images.githubusercontent.com/54043578/65985421-9fb02980-e436-11e9-8194-02ebd9f5a804.png">
+<img width="1430" alt="tropic-thunder-response" src="https://user-images.githubusercontent.com/54043578/65985427-a343b080-e436-11e9-9aa0-273dd8fc454f.png">
+<img width="1434" alt="tropicthunder-res-2" src="https://user-images.githubusercontent.com/54043578/65985431-a50d7400-e436-11e9-85cf-d16de5682aa9.png">
+
 
 ////////////////////////////////////////CONCERT-THIS COMMAND///////////////////////////////////////////////////////////////
 
