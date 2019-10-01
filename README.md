@@ -12,9 +12,6 @@ To run the app, open terminal in VS code or Webstorm and type in: "node" '(space
 
 -The terminal will then return the values of the user's input. Additionally to view it externally, the user can open this in a web browser and run the function there.
 
-(Include screenshots, gifs or videos of the app functioning)
-
--'[TO BE ADDED LATER WHEN FUNCTIONALITY IS RESTORED AND WORKING]'
 
 DEPLOYED LINK TO GITHUB: https://gravehaus.github.io/liri-node/
 
