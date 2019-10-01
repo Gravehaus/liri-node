@@ -25,8 +25,23 @@ Technologies used in assignment:
 Created by Julia Graves
 
 SCREENSHOTS OF COMMANDS
+
+////////////////////////////////////////SPOTIFY THIS COMMAND////////////////////////////////////////////////////////////
 <img width="1212" alt="start-process" src="https://user-images.githubusercontent.com/54043578/65983915-7215b100-e433-11e9-870e-89be195a5648.png">
 <img width="1440" alt="spotify-this" src="https://user-images.githubusercontent.com/54043578/65983941-835ebd80-e433-11e9-990b-61cb4004ea74.png">
 <img width="1433" alt="sweet-dreams" src="https://user-images.githubusercontent.com/54043578/65983959-8bb6f880-e433-11e9-9c43-2266abf836c0.png">
 <img width="1422" alt="sweet-dreams-response" src="https://user-images.githubusercontent.com/54043578/65983976-94a7ca00-e433-11e9-89f6-ec011a30e820.png">
 <img width="1434" alt="sweet-dreams-r2" src="https://user-images.githubusercontent.com/54043578/65983988-996c7e00-e433-11e9-8853-83d163d23e1a.png">
+
+////////////////////////////////////////MOVIE-THIS COMMAND///////////////////////////////////////////////////////////////
+
+<img width="1212" alt="start-process" src="https://user-images.githubusercontent.com/54043578/65984122-e8b2ae80-e433-11e9-9ba7-48bf0e06415c.png">
+<img width="1426" alt="movie-this" src="https://user-images.githubusercontent.com/54043578/65984132-f0725300-e433-11e9-8af9-03dc6b7e6e83.png">
+<img width="1082" alt="movie-response" src="https://user-images.githubusercontent.com/54043578/65984144-f36d4380-e433-11e9-9b2b-5b1b095f874b.png">
+
+////////////////////////////////////////CONCERT-THIS COMMAND///////////////////////////////////////////////////////////////
+<img width="1212" alt="start-process" src="https://user-images.githubusercontent.com/54043578/65984122-e8b2ae80-e433-11e9-9ba7-48bf0e06415c.png">
+<img width="1288" alt="concert-this-response" src="https://user-images.githubusercontent.com/54043578/65984201-1dbf0100-e434-11e9-92bf-15013d3be86d.png">
+<img width="1424" alt="concert-response" src="https://user-images.githubusercontent.com/54043578/65984219-257ea580-e434-11e9-8b9d-0e2a7dcd6111.png">
+
+
