@@ -128,3 +128,353 @@ Location: St Paul
 Date of Concert: 09/30/2019
 ---------------------------------
 
+
+Venue Name: The Anthem
+
+
+Location: Washington
+
+
+Date of Concert: 10/01/2019
+---------------------------------
+
+
+Venue Name: The Forum
+
+
+Location: Los Angeles
+
+
+Date of Concert: 10/01/2019
+---------------------------------
+
+
+Venue Name: Allstate Arena
+
+
+Location: Rosemont
+
+
+Date of Concert: 10/01/2019
+---------------------------------
+
+
+Venue Name: Xcel Energy Center
+
+
+Location: St Paul
+
+
+Date of Concert: 10/01/2019
+---------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+
+Artist: Eurythmics,
+Track Name: Sweet Dreams (Are Made of This) - Remastered,
+Album Name: Sweet Dreams (Are Made Of This),
+Preview Track: https://p.scdn.co/mp3-preview/90dbf17146e76483a9fe296d7f03001e2f07199f?cid=bb02e22a4b7741c9a17c99b9ea1e5cc4
+--------------------------------------
+
+
+Artist: Marilyn Manson,
+Track Name: Sweet Dreams (Are Made Of This),
+Album Name: Smells Like Children,
+Preview Track: null
+--------------------------------------
+
+
+Artist: Beyoncé,
+Track Name: Sweet Dreams,
+Album Name: I AM...SASHA FIERCE,
+Preview Track: https://p.scdn.co/mp3-preview/c76787675800fb0aeb087fae9506380631def9df?cid=bb02e22a4b7741c9a17c99b9ea1e5cc4
+--------------------------------------
+
+
+Artist: The Last Shadow Puppets,
+Track Name: Sweet Dreams, TN,
+Album Name: Everything You've Come To Expect (Deluxe Edition),
+Preview Track: https://p.scdn.co/mp3-preview/381467cca42ac22551534d069636469805cd05aa?cid=bb02e22a4b7741c9a17c99b9ea1e5cc4
+--------------------------------------
+
+
+Artist: BØRNS,
+Track Name: Sweet Dreams,
+Album Name: Blue Madonna,
+Preview Track: null
+--------------------------------------
+
+
+Artist: Eurythmics,
+Track Name: Sweet Dreams (Are Made of This) - Remastered,
+Album Name: Sweet Dreams (Are Made Of This),
+Preview Track: https://p.scdn.co/mp3-preview/90dbf17146e76483a9fe296d7f03001e2f07199f?cid=bb02e22a4b7741c9a17c99b9ea1e5cc4
+--------------------------------------
+
+
+Artist: Marilyn Manson,
+Track Name: Sweet Dreams (Are Made Of This),
+Album Name: Smells Like Children,
+Preview Track: null
+--------------------------------------
+
+
+Artist: Beyoncé,
+Track Name: Sweet Dreams,
+Album Name: I AM...SASHA FIERCE,
+Preview Track: https://p.scdn.co/mp3-preview/c76787675800fb0aeb087fae9506380631def9df?cid=bb02e22a4b7741c9a17c99b9ea1e5cc4
+--------------------------------------
+
+
+Artist: BØRNS,
+Track Name: Sweet Dreams,
+Album Name: Blue Madonna,
+Preview Track: null
+--------------------------------------
+
+
+Artist: The Last Shadow Puppets,
+Track Name: Sweet Dreams, TN,
+Album Name: Everything You've Come To Expect (Deluxe Edition),
+Preview Track: https://p.scdn.co/mp3-preview/381467cca42ac22551534d069636469805cd05aa?cid=bb02e22a4b7741c9a17c99b9ea1e5cc4
+--------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: The Godfathers
+
+Year: 1971–1972
+
+IMDB Rating: 8.0
+
+Country: Australia
+
+Language: English
+
+Plot: A wheelchair-bound widow with a small son takes in three male boarders, each of whom becomes a father-figure to the boy.
+
+Cast: undefined
+------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: The Terminators
+
+Year: 2009
+
+IMDB Rating: 2.0
+
+Country: USA
+
+Language: English
+
+Plot: A small band of resistance fighters battle the cyborgs that have taken control of the planet.
+
+Cast: undefined
+------------------------------------
+
+Title: undefined
+
+Year: undefined
+
+IMDB Rating: undefined
+
+Country: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Cast: undefined
+------------------------------------
+
+Title: Dunkirk
+
+Year: 2017
+
+IMDB Rating: 7.9
+
+Country: UK, Netherlands, France, USA
+
+Language: English, French, German
+
+Plot: Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.
+
+Cast: undefined
+------------------------------------
+
+Title: Tropic Thunder
+
+Year: 2008
+
+IMDB Rating: 7.0
+
+Country: USA, UK, Germany
+
+Language: English, Mandarin
+
+Plot: Through a series of freak occurrences, a group of actors shooting a big-budget war movie are forced to become the soldiers they are portraying.
+
+Cast: undefined
+------------------------------------
+

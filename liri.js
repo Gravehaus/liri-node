@@ -38,11 +38,12 @@ else{
 //START OMDB//
 function movieThis(movie){
   let movieQuery = movie || "Tropic Thunder"
-
-  axios.get("http://www.omdbapi.com/?t="+movie+"s&y=&plot=short&apikey=trilogy").then(function(response){
+  console.log(movieQuery)
+  axios.get("http://www.omdbapi.com/?t="+movie+"&y=&plot=short&apikey=trilogy").then(function(response){
   let divider = "\n------------------------------------\n\n";
 
   let jsonData = response.data;
+  console.log(jsonData)
 
   if (jsonData.title != undefined){
   }
